@@ -79,9 +79,9 @@ var questions = [
     title: "Which statement selects all img elements in the DOM tree?",
     choices: [
       "Document.querySelector('img')",
-      "Document.querySelectorAll('<img alt='image-1' src=''>')",
+      "Document.querySelectorAll('<img>')",
       "Document.querySelectorAll('img')",
-      "Document.querySelector('<img alt='image-2' src=''>')",
+      "Document.querySelector('<img>')",
     ],
     answer: "Document.querySelectorAll('img')",
   },
